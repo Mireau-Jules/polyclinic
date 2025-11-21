@@ -1,0 +1,13 @@
+# Environment and config with passwords
+config/database.php
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
