@@ -1,7 +1,9 @@
-<footer>
-        <p>&copy; 2025 Polyclinique - Projet de Fin d'Année</p>
+</main>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <?php echo date('Y'); ?> Polyclinique - Système de Gestion des Patients</p>
+        </div>
     </footer>
-    <script src="/polyclinic/public/js/main.js"></script>
+    <script src="/public/js/main.js"></script>
 </body>
 </html>
-
