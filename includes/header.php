@@ -17,6 +17,8 @@
                 <li><a href="/views/patients.php" class="<?php echo basename($_SERVER['PHP_SELF']) == 'patients.php' ? 'active' : ''; ?>">Patients</a></li>
                 <li><a href="/views/consultations.php" class="<?php echo basename($_SERVER['PHP_SELF']) == 'consultations.php' ? 'active' : ''; ?>">Consultations</a></li>
                 <li><a href="/views/medecins.php" class="<?php echo basename($_SERVER['PHP_SELF']) == 'medecins.php' ? 'active' : ''; ?>">Médecins</a></li>
+                <li><a href="/views/rendez_vous_admin.php" class="<?php echo basename($_SERVER['PHP_SELF']) == 'rendez_vous_admin.php' ? 'active' : ''; ?>">Rendez-vous</a></li>
+                <li><a href="/auth/logout.php" style="color: #ef4444;">🚪 Déconnexion</a></li>
             </ul>
         </div>
     </nav>
